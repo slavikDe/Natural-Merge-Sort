@@ -9,7 +9,7 @@ namespace fs = std::filesystem;
 class ReadFile
 {
 private:
-	static constexpr int buffer_size = 1024 *8;
+	static constexpr int buffer_size = 1024 * 8;
 	int64_t buffer[buffer_size];
 	std::ifstream file;
 	int buffer_offset;
